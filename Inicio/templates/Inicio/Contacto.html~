@@ -1,0 +1,14 @@
+{% extends 'Inicio/index.html' %}
+
+{% block body %}
+
+    <h1>Contacto</h1>
+
+    <form>
+	    <input type="" name="Agregar tarea">
+	    <button>Enviar</button>
+    </form>
+
+{% endblock %}
+
+

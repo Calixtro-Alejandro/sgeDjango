@@ -1,0 +1,9 @@
+{% extends 'Inicio/index.html' %}
+
+{% block body %}
+
+    <h1> Sistema General Empresarial </h1>
+
+{% endblock %}
+
+

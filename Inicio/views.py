@@ -1,0 +1,21 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def Inicio(request):
+    return render(request, 'Inicio/index.html')
+
+def SGE(request):
+    return render(request, 'Inicio/SGE.html')
+
+def Contacto(request):
+    return render(request, 'Inicio/Contacto.html')
+
+def Blog(request):
+    return render(request, 'Inicio/Blog.html')
+
+def CyberSeguridad(request):
+    return render(request, 'Inicio/CyberSeguridad.html')
+
+def Usuario(request):
+    return render(request, 'Inicio/Usuario.html')
+
